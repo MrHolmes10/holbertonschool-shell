@@ -1,7 +1,7 @@
 #!/usr/bin/env bash 
 # bu nese eliyir
 h=0
-while  [ $h -lt 12 ]; do
+while  [ $h -lt 11 ]; do
  echo "Hour: $h"
  printf "%s\n" {1..59}
   h=$((h+1))
