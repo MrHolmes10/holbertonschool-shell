@@ -1,6 +1,7 @@
 #!/usr/bin/env bash 
 # bu nese eliyir
+file="/etc/passwd"
 while IFS=:  read -r user pass uid gid desc home shell
 do 
 	echo "$user:$uid:$home"
-done < /etc/passwd
+done  < $file
