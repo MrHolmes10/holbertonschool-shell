@@ -1,6 +1,5 @@
 #!/usr/bin/env bash 
 # bu nese eliyir
-List="$(ls)"
-for i in  "$List"; do
-	echo "${i#*-}"
+for file in *; do
+	echo "${file#*-}"
 done
