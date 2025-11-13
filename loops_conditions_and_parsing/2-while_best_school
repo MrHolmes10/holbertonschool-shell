@@ -1,0 +1,8 @@
+#!/bin/bash
+# bu nese eliyir
+a=1
+while [ $a < 5]; do
+  echo  "Best School"
+  a=$((a+1)) 
+done
+
