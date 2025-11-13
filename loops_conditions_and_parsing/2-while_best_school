@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # bu nese eliyir
 a=1
 while [ $a < 5]; do
