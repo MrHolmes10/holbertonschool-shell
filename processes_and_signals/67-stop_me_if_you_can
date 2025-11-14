@@ -1,0 +1,4 @@
+#!/usr/bin/env bash 
+# bu nese eliyir
+pkill -f  "7-highlander"
+
