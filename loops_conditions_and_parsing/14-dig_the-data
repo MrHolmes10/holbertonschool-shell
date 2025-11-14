@@ -1,0 +1,3 @@
+#!/usr/bin/env bash 
+# bu nese eliyir 
+awk '{print $1, $9}' apache-access.log | awk  '{ count[$0]++ } END { for (x in count) print count[x], x }'
