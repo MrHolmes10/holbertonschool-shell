@@ -1,0 +1,4 @@
+#!/usr/bin/env bash 
+# bu nese eliyir
+ps auxf | grep bash
+# shellcheck disable=SC2009
