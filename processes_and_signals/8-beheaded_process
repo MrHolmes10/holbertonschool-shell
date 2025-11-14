@@ -1,0 +1,4 @@
+#!/usr/bin/env bash 
+# bu nese eliyir
+pkill -9 -f "7-highlander"
+#echo "Killed"
